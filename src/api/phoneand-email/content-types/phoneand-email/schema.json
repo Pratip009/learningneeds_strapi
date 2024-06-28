@@ -1,0 +1,22 @@
+{
+  "kind": "collectionType",
+  "collectionName": "phoneand_emails",
+  "info": {
+    "singularName": "phoneand-email",
+    "pluralName": "phoneand-emails",
+    "displayName": "PhoneandEmail",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "email": {
+      "type": "email"
+    },
+    "phone": {
+      "type": "string"
+    }
+  }
+}

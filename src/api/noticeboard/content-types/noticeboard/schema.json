@@ -1,0 +1,18 @@
+{
+  "kind": "collectionType",
+  "collectionName": "noticeboards",
+  "info": {
+    "singularName": "noticeboard",
+    "pluralName": "noticeboards",
+    "displayName": "Noticeboard"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "notices": {
+      "type": "text"
+    }
+  }
+}

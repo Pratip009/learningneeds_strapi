@@ -1,0 +1,38 @@
+{
+  "name": "learning-needs-back",
+  "private": true,
+  "version": "0.1.0",
+  "description": "A Strapi application",
+  "scripts": {
+    "develop": "strapi develop",
+    "start": "strapi start",
+    "build": "strapi build",
+    "strapi": "strapi"
+  },
+  "dependencies": {
+    "@strapi/plugin-cloud": "4.24.4",
+    "@strapi/plugin-i18n": "4.24.4",
+    "@strapi/plugin-users-permissions": "4.24.4",
+    "@strapi/provider-upload-cloudinary": "^4.24.4",
+    "@strapi/strapi": "4.24.4",
+    "ajv": "^8.15.0",
+    "better-sqlite3": "8.6.0",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "react-router-dom": "5.3.4",
+    "strapi-connector-mongoose": "^3.6.11",
+    "strapi-hook-mongoose": "^3.0.0-beta.17.8",
+    "styled-components": "5.3.3"
+  },
+  "author": {
+    "name": "A Strapi developer"
+  },
+  "strapi": {
+    "uuid": "c29b89ce-0bc5-4f3c-957f-b5fe4c798008"
+  },
+  "engines": {
+    "node": ">=18.0.0 <=20.x.x",
+    "npm": ">=6.0.0"
+  },
+  "license": "MIT"
+}
