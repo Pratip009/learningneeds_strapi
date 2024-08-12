@@ -79,27 +79,6 @@ module.exports = ({ env }) => {
         max: env.int("DATABASE_POOL_MAX", 10),
       },
     },
-    sqlite: {
-      connection: {
-        filename: path.join(
-          __dirname,
-          "..",
-          env("DATABASE_FILENAME", ".tmp/data.db")
-        ),
-      },
-      useNullAsDefault: true,
-    },
-    mongoose: {
-      connection: {
-        uri: env(
-          "mongodb+srv://PK009:pratipkayal9896@cluster0.oq35d9c.mongodb.net/"
-        ),
-        databaseName: env("cluster0", "strapi"),
-      },
-      options: {
-        ssl: true,
-      },
-    },
   };
 
   return {
